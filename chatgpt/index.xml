@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>chatgpt on 게을러지지마</title>
+    <link>https://log.readme.website/chatgpt/</link>
+    <description>Recent content in chatgpt on 게을러지지마</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>tgkim</copyright>
+    <lastBuildDate>Sun, 21 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://log.readme.website/chatgpt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Advanced Markdown</title>
+      <link>https://log.readme.website/new-post-3/</link>
+      <pubDate>Sun, 21 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://log.readme.website/new-post-3/</guid>
+      <description>In this post, we&amp;rsquo;ll dive into some advanced Markdown features.
+Task Lists You can create task lists with checkboxes. Here&amp;rsquo;s an example:
+ Task 1 Task 2 Task 3  Footnotes Markdown supports footnotes. Here&amp;rsquo;s an example:
+Here is some text with a footnote1.
+Horizontal Rule You can insert a horizontal rule to separate sections. Here&amp;rsquo;s an example:
+ That&amp;rsquo;s all for now. I hope you find these advanced Markdown features helpful!</description>
+    </item>
+    
+    <item>
+      <title>Markdown Formatting</title>
+      <link>https://log.readme.website/new-post-2/</link>
+      <pubDate>Sun, 21 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://log.readme.website/new-post-2/</guid>
+      <description>In this post, we&amp;rsquo;ll explore various formatting options available in Markdown.
+Emphasis You can emphasize text using italic or bold styles.
+Quotes Markdown allows you to include block quotes. Here&amp;rsquo;s an example:
+ &amp;ldquo;The only way to do great work is to love what you do.&amp;rdquo; - Steve Jobs adfadf
+ Images/Figures You can include images as figure in your posts. Here&amp;rsquo;s an example:
+ Emergence of Mandakini river from kedar peak</description>
+    </item>
+    
+    <item>
+      <title>Markdown?</title>
+      <link>https://log.readme.website/new-post-1/</link>
+      <pubDate>Sun, 21 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://log.readme.website/new-post-1/</guid>
+      <description>Introduction Welcome to my first post! In this post, I will discuss various Markdown features and show you how to use them effectively.
+Headings You can use headings to structure your content. Here&amp;rsquo;s an example:
+Subheading Lists Markdown supports both ordered and unordered lists. Here are examples of both:
+ Item 1 Item 2 Item 3   Unordered item 1 Unordered item 2 Unordered item 3  Links You can create links to external websites or internal pages.</description>
+    </item>
+    
+  </channel>
+</rss>

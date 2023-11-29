@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>면접질문 정리 | 게을러지지마</title>
+<meta name="robots" content='index, follow'>
+<meta name="description" content="면접 질문 정리">
+<meta name="generator" content="hugo-index">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<meta name="naver-site-verification" content="df8058686cca369f7a31cb97318b2dd21d8fe4ed" />
+<link rel="alternate" type="application/rss+xml" href="https://log.readme.website/index.xml" title="게을러지지마">
+
+<meta property="og:title" content="게을러지지마" />
+<meta property="og:url" content="https://log.readme.website/" />
+<meta property="og:image" content="https://log.readme.website/image.jpg" />
+<meta property="og:image:alt" content="No Images" />
+<meta property="og:description" content="개발공부, 개발도서, 튜토리얼, 개발정리, 개발공부, 개발자, 서버개발자" />
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5FRKGEC23X"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5FRKGEC23X');
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-195863746-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-195863746-2');
+</script>
+<link crossorigin="anonymous" href="https://log.readme.website/assets/stylesheet.css" rel="preload stylesheet" as="style">
+<script crossorigin="anonymous" src="https://log.readme.website/assets/quicklink.js" rel="preload" as="script"></script>
+<script>
+    window.addEventListener('load', () => {
+        quicklink.listen();
+    });
+</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6690487239486575"
+     crossorigin="anonymous"></script>
+  </head>
+  <body><header>
+  <h1>
+    <a href="https://log.readme.website/">
+      
+      <span>게을러지지마</span>
+    </a>
+    <span class="hl">/</span>
+    <a href="https://log.readme.website/interview/">
+      <span>면접질문 정리</span>
+    </a>
+  </h1>
+  <p class="desc">면접 질문 정리</p>
+  <p class="bookList">
+    book : 
+    <a target="_blank" href="https://t-g-kim.github.io/book-aws">aws</a>
+    <a target="_blank" href="https://t-g-kim.github.io/book-algorithm">algorithm</a>
+  </p>
+</header><div class="main">
+
+<ul class="tagsList single">
+  
+  <li><a href="https://log.readme.website/%EB%A9%B4%EC%A0%91/">면접</a></li>
+  
+  <li><a href="https://log.readme.website/cs/">CS</a></li>
+  
+</ul>
+
+<div class="content"><details>
+<summary> <b> elasticsearch에서 text와 keyword의 차이점은?</b> </summary>
+text 타입은 입력된 문자열을 텀 단위로 쪼개어 역 색인 (inverted index) 구조를 만듭니다.  
+보통은 풀텍스트 검색에 사용할 문자열 필드 들을 text 타입으로 지정합니다.  
+<p>keyword 타입은 입력된 문자열을 하나의 토큰으로 저장합니다.
+text 타입에 keyword 애널라이저를 적용 한 것과 동일합니다. exact match를 활용 할  때 사용. <br>
+(보통은 집계(aggregation) 또는 정렬(sorting)에 사용할 문자열 필드를 keyword 타입으로 지정합니다.)</p>
+<p>참고<br>
+<a href="https://esbook.kimjmin.net/07-settings-and-mappings/7.2-mappings/7.2.1">https://esbook.kimjmin.net/07-settings-and-mappings/7.2-mappings/7.2.1</a></p>
+</details>
+<hr>
+<h5 id="운영체제에서-프로그램의-실행을-다양한-메모리-공간이-제공됩니다-총-4가지가-있는데-말씀해주세요-jvm-메모리-아닙니다ttt">운영체제에서 프로그램의 실행을 다양한 메모리 공간이 제공됩니다. 총 4가지가 있는데 말씀해주세요. (JVM 메모리 아닙니다.)ttt</h5>
+<hr>
+<h5 id="패러다임이란">패러다임이란?</h5>
+<hr>
+<h5 id="1급객체에-대해-설명해주시오">1급객체에 대해 설명해주시오</h5>
+<hr>
+<h5 id="querydsl">queryDSL</h5>
+<p>JPQL로 작성을 하여 원하는 쿼리를 사용할 수있지만 동적쿼리의 경우 런타임 에러 발생, queryDSL의 경우 컴파일 시점에 오류를 발견할수 있다.<br>
+메서드 체이닝 방식으로 유틸메서드를 사용할 수있고 직관적으로 쿼리 작성이 가능하다.</p>
+<hr>
+<h5 id="spring-psa-di-dip">Spring PSA, DI, DIP</h5>
+<hr>
+<h5 id="jwt란-무엇인가요-그리고-어떤-경우에-어떻게-사용하나요">JWT란 무엇인가요? 그리고, 어떤 경우에 어떻게 사용하나요?</h5>
+<hr>
+<h5 id="tdd">TDD</h5>
+<p>테스트 주도 개발<br>
+테스트코드를 먼저 작성하는 개발 방법론. 테스트 주도 개발. 프로덕션 코드보다 테스트코드를 먼저 작성한다.</p>
+<ul>
+<li>깔끔한 코드 작성 가능</li>
+<li>장기적으로 개발 비용을 절감</li>
+<li>디버깅 시간 단축</li>
+<li>테스트 문서의 대체 가능</li>
+<li>추가 구현의 용이함</li>
+</ul>
+<p>단점 생산력 저하</p>
+<p>단위 테스트(Unit Test) ?
+말 그대로 한 단위(일반적으로 class)만을 테스트하는 것</p>
+<hr>
+<h5 id="bdd">BDD</h5>
+<p>Behavior-Driven Development
+<em>given, when, then</em>, 메소드 단위가 아닌 시나리오 단위로 테스트 코드 작성</p>
+<p>참고 링크 : <a href="https://tv.kakao.com/channel/3693125/cliplink/414004682">https://tv.kakao.com/channel/3693125/cliplink/414004682</a></p>
+<hr>
+<h5 id="innodb와-myisam의-차이점은">InnoDB와 MyISAM의 차이점은?</h5>
+<hr>
+<h5 id="배포방식의-종류를-말씀해주세요">배포방식의 종류를 말씀해주세요.</h5>
+<p>Rolling, Blue/Green/ Canary<br>
+Rolling 배포는 서버를 한 대씩 구 버전에서 새 버전으로 교체해가는 전략이다.<br>
+Blue/Green 배포는 구 버전에서 새 버전으로 일제히 전환하는 전략이다.<br>
+Canary 배포는 위험을 빠르게 감지할 수 있는 배포 기법이다. 구 버전의 서버와 새 버전의 서버들을 구성하고 일부 트래픽을 새 버전으로 분산하여 오류 여부를 판단한다.</p>
+<hr>
+<h5 id="gradle에서-annotation-processer란">Gradle에서 annotation processer란?</h5>
+<p>컴파일 시점에 Annotation 기반으로 코드를 변경하거나 생성하는 방법
+Annotation Processor 사용되는 프레임워크</p>
+<ul>
+<li>스프링 프레임워크 : 롬복, mapstruct처럼 컴파일 시점에 코드를 생성되는 부분</li>
+<li>junit 프레임워크 : @Test, @Before</li>
+</ul>
+<p>kapt는?<br>
+Kapt(Kotlin Annotation Processing Tool) 코틀린에서 어노테이션 처리를 위한 부분</p>
+<p>Annotation Processor 사용되는 프레임워크</p>
+<ul>
+<li>스프링 프레임워크 : 롬복, mapstruct처럼 컴파일 시점에 코드를 생성되는 부분</li>
+<li>junit 프레임워크 : @Test, @Before</li>
+</ul>
+<hr>
+<h5 id="annotation-processor가-어떤-프레임워크에-사용되나요">annotation processor가 어떤 프레임워크에 사용되나요?</h5>
+<p>일반적으로 annotation에 대한 코드베이스를 검사, 수정 또는 생성하는데 사용된다.<br>
+본질적으로 annotation processor는 java 컴파일러의 플러그인의 일종. annotation processor를 적재적소에 잘 사용한다면 개발자의 코드를 단순화 할 수 있습니다.</p>
+<p>사용 이유</p>
+<ul>
+<li>빠르다. javac 컴파일러의 일부이기 때문에 모든 처리가 런타임보다 컴파일 시간에 발생</li>
+<li>reflection을 사용하지 않는다.</li>
+<li>Boilerplate code를 생성해준다.</li>
+</ul>
+<hr>
+<h5 id="innodb와-myisam의-차이점은-1">InnoDB와 MyISAM의 차이점은?</h5>
+<hr>
+<h5 id="jpa에-1차-캐시-2차-캐시에-대해서-설명해주세요">JPA에 1차 캐시 2차 캐시에 대해서 설명해주세요.</h5>
+<hr>
+<h5 id="adapter-pattern-이란">Adapter Pattern 이란?</h5>
+<hr>
+<h5 id="c10k-문제란">C10K 문제란?</h5>
+<p>C10K problem</p>
+<p>C10K는 다수의 클라이언트를 동시에 처리할 수 있는가에 대한 문제.
+(하드웨어 성능상 문제가 없어도 클라이언트의 수가 많아지면서 나는 문제라고 보면된다)
+예전에는 하드웨어가 병목이 심했지만 80년대 말부터 학자들은 소프트웨어 위기론을 제기했다.
+하드웨어는 10년에 4배씩 좋아졌지만 소프트웨어는 그렇지 못했다.</p>
+<p>해결책
+Non-blocking I/O의 등장.
+event-driven방식</p>
+<ul>
+<li>이벤트(=요청)와 io처리(I/O 멀티플렉싱)를 분리</li>
+<li>이벤트루프는 싱글스레드 모델</li>
+<li>io처리는 커널 비동기 라이브러리(epoll, kqueue 등)를 사용하여 callback 받음</li>
+</ul>
+<p>Apache의 C10K를 해결하기위해 &lsquo;NGINX&rsquo;가 개발되었다. event-driven 구조로 만든 웹서버.
+(고정된 프로세스만 생성하여, 그 프로세스 내부에서 비동기 방식으로 task를 처리함.)</p>
+<p>참고<br>
+C10K : Client(connection) 10*1000, 클라이언트가 1만개다<br>
+무어의 법칙 :  18개월마다 반도체 직접회로의 성능이 2배로 증가 에 비해 소프트웨어의 한계로 인해 발생한 문제<br>
+<a href="https://applefarm.tistory.com/137">https://applefarm.tistory.com/137</a></p>
+<hr>
+<h4 id="cqrs란">CQRS란?</h4>
+<p>CQRS와 그 관련 기술들은 .NET 환경을 중심으로 발전해왔고 점차 Java, Ruby 등의 생태계로 확산되고 있습니다.<br>
+CQRS는 Command and Query Responsibility Segregation(명령과 조회의 책임 분리)을 나타냅니다.<br>
+시스템에서 명령을 처리하는 책임과 조회를 처리하는 책임을 분리하는 것이 CQRS의 핵심입니다.</p>
+<p>CRUD에서 R(읽기)를 CUD와 분리시킨다&hellip;.<br>
+한마디로 Read하는 클래스는 따로 만들고 CUD와 분리한다.<br>
+왜냐하면, 코드의 역할 책임이 모호해진다. 의미/가독성이 나빠진다. 시스템이 복잡해질 수록 유지보수성이 떨어진다.<br>
+참고 : <a href="https://freedeveloper.tistory.com/399">https://freedeveloper.tistory.com/399</a></p>
+<hr>
+<h5 id="http-method">HTTP Method</h5>
+<p>GET: 서버로 부터 데이터를 취득<br>
+POST: 서버에 데이터를 추가, 작성 등<br>
+PUT: 서버의 데이터를 갱신, 작성 등<br>
+DELETE: 서버의 데이터를 삭제<br>
+HEAD: GET방식과 동일하지만, 응답에 BODY가 없고 응답코드와 HEAD만 응답한다. 웹서버 정보확인, 헬스체크, 버젼확인, 최종 수정일자 확인등의 용도로 사용된다.<br>
+OPTIONS: 웹서버에서 지원되는 메소드의 종류를 확인할 경우 사용
+PATCH: 리소스의 일부분을 수정<br>
+CONNECT:  동적으로 터널 모드를 교환, 프락시 기능을 요청시 사용</p>
+<hr>
+</div>
+<br><br><br>
+<hr>
+<script src="https://utteranc.es/client.js"
+        repo="t-g-kim/utterances"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script></div><footer>
+    <hr>
+    <div class="footer-text">
+        
+        <div><a href="https://github.com/t-g-kim">github</a></div>
+    </div>
+</footer>
+</body>
+</html>

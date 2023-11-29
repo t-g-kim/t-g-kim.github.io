@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>java on 게을러지지마</title>
+    <link>https://log.readme.website/java/</link>
+    <description>Recent content in java on 게을러지지마</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>tgkim</copyright>
+    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://log.readme.website/java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>싱글톤 패턴</title>
+      <link>https://log.readme.website/singleton/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://log.readme.website/singleton/</guid>
+      <description>java Singleton 예제 public class Singleton { private static Singleton instance = new Singleton(); private int count = 0; private Singleton() { // 외부에서 호출하지 못하게 기본 생성자는 private로 지정  } public static Singleton getInstance() { return instance; } public void increaseCount() { count++; } public int getCount() { return count; } } java Singleton 예제2 public class Singleton { // Thread safe하지 않다.  private static Singleton singleton = null; private Singleton(){} public Singleton02 getInstance() { if (singleton == null) { singleton = new Singleton(); } return singleton; } } 위의 예제는 Multi-Thread환경에서 Thread safe하지 못하다.</description>
+    </item>
+    
+  </channel>
+</rss>

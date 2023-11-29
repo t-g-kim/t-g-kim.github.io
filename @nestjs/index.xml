@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NestJS on 게을러지지마</title>
+    <link>https://log.readme.website/@nestjs/</link>
+    <description>Recent content in NestJS on 게을러지지마</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>tgkim</copyright>
+    <lastBuildDate>Tue, 11 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://log.readme.website/@nestjs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NestJS로 배우는 백엔드 프로그래밍</title>
+      <link>https://log.readme.website/book-nestjs%EB%A1%9C-%EB%B0%B0%EC%9A%B0%EB%8A%94-%EB%B2%A1%EC%97%94%EB%93%9C%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/</link>
+      <pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://log.readme.website/book-nestjs%EB%A1%9C-%EB%B0%B0%EC%9A%B0%EB%8A%94-%EB%B2%A1%EC%97%94%EB%93%9C%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/</guid>
+      <description>1장 NestJS의 장점 NestJS는 Node.js에 기반을 둔 웹 API 프레임워크로서 Express 또는 Fastify 프레임워크를 래핑하여 동작한다.
+Express와 Fastify는 모두 Node.js를 쉽게 사용하기 위해 만들어진 프레임워크
+NestJS는 기본 설치시 Express를 사용
+벤치마크 결과 Fastify가 Express보다 2배 빠르지만 Express를 사용하는 이유는 Express가 널리 사용되고 있고 많은 미들웨어가 NestJS와 호환되기 때문
+NestJS는 Angular의 영향을 많이 받았다. 모듈/컴포넌트 기반으로 프로그램을 작성하고 재사용성을 높인다..
+제어의 역전, 의존성 주입, AOP같은 객체 지향 개념을 도입
+언어는 타입스크립트를 기반으로 채택</description>
+    </item>
+    
+  </channel>
+</rss>

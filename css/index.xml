@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>css on 게을러지지마</title>
+    <link>https://log.readme.website/css/</link>
+    <description>Recent content in css on 게을러지지마</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>tgkim</copyright>
+    <lastBuildDate>Sun, 21 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://log.readme.website/css/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Advanced Markdown</title>
+      <link>https://log.readme.website/new-post-3/</link>
+      <pubDate>Sun, 21 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://log.readme.website/new-post-3/</guid>
+      <description>In this post, we&amp;rsquo;ll dive into some advanced Markdown features.
+Task Lists You can create task lists with checkboxes. Here&amp;rsquo;s an example:
+ Task 1 Task 2 Task 3  Footnotes Markdown supports footnotes. Here&amp;rsquo;s an example:
+Here is some text with a footnote1.
+Horizontal Rule You can insert a horizontal rule to separate sections. Here&amp;rsquo;s an example:
+ That&amp;rsquo;s all for now. I hope you find these advanced Markdown features helpful!</description>
+    </item>
+    
+    <item>
+      <title>Markdown Formatting</title>
+      <link>https://log.readme.website/new-post-2/</link>
+      <pubDate>Sun, 21 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://log.readme.website/new-post-2/</guid>
+      <description>In this post, we&amp;rsquo;ll explore various formatting options available in Markdown.
+Emphasis You can emphasize text using italic or bold styles.
+Quotes Markdown allows you to include block quotes. Here&amp;rsquo;s an example:
+ &amp;ldquo;The only way to do great work is to love what you do.&amp;rdquo; - Steve Jobs adfadf
+ Images/Figures You can include images as figure in your posts. Here&amp;rsquo;s an example:
+ Emergence of Mandakini river from kedar peak</description>
+    </item>
+    
+    <item>
+      <title>Markdown?</title>
+      <link>https://log.readme.website/new-post-1/</link>
+      <pubDate>Sun, 21 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://log.readme.website/new-post-1/</guid>
+      <description>Introduction Welcome to my first post! In this post, I will discuss various Markdown features and show you how to use them effectively.
+Headings You can use headings to structure your content. Here&amp;rsquo;s an example:
+Subheading Lists Markdown supports both ordered and unordered lists. Here are examples of both:
+ Item 1 Item 2 Item 3   Unordered item 1 Unordered item 2 Unordered item 3  Links You can create links to external websites or internal pages.</description>
+    </item>
+    
+    <item>
+      <title>Code Syntax Guide</title>
+      <link>https://log.readme.website/code-syntax/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://log.readme.website/code-syntax/</guid>
+      <description>Inline Code This is Inline Code
+Only pre  This is pre text  Code block with backticks &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html lang=&amp;#34;en&amp;#34;&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;#34;utf-8&amp;#34; /&amp;gt; &amp;lt;title&amp;gt;Example HTML5 Document&amp;lt;/title&amp;gt; &amp;lt;meta name=&amp;#34;description&amp;#34; content=&amp;#34;Sample article showcasing basic Markdown syntax and formatting for HTML elements.&amp;#34; /&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;p&amp;gt;Test&amp;lt;/p&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; Code block with backticks and language specified 1 2 3 4 5 6 7 8 9 10 11 12 13 14  &amp;lt;!</description>
+    </item>
+    
+    <item>
+      <title>Markdown Syntax Guide</title>
+      <link>https://log.readme.website/markdown-syntax/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://log.readme.website/markdown-syntax/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

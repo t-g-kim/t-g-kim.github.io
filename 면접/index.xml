@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>면접 on 게을러지지마</title>
+    <link>https://log.readme.website/%EB%A9%B4%EC%A0%91/</link>
+    <description>Recent content in 면접 on 게을러지지마</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>tgkim</copyright>
+    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://log.readme.website/%EB%A9%B4%EC%A0%91/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>면접질문 정리</title>
+      <link>https://log.readme.website/interview/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://log.readme.website/interview/</guid>
+      <description>elasticsearch에서 text와 keyword의 차이점은?  text 타입은 입력된 문자열을 텀 단위로 쪼개어 역 색인 (inverted index) 구조를 만듭니다. 보통은 풀텍스트 검색에 사용할 문자열 필드 들을 text 타입으로 지정합니다. keyword 타입은 입력된 문자열을 하나의 토큰으로 저장합니다. text 타입에 keyword 애널라이저를 적용 한 것과 동일합니다. exact match를 활용 할 때 사용. (보통은 집계(aggregation) 또는 정렬(sorting)에 사용할 문자열 필드를 keyword 타입으로 지정합니다.)
+참고
+https://esbook.kimjmin.net/07-settings-and-mappings/7.2-mappings/7.2.1
+  운영체제에서 프로그램의 실행을 다양한 메모리 공간이 제공됩니다.</description>
+    </item>
+    
+  </channel>
+</rss>

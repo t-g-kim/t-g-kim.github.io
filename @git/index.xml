@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>git on 게을러지지마</title>
+    <link>https://log.readme.website/@git/</link>
+    <description>Recent content in git on 게을러지지마</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>tgkim</copyright>
+    <lastBuildDate>Mon, 24 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://log.readme.website/@git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>gitbook 만들기</title>
+      <link>https://log.readme.website/gitbook-%EB%A7%8C%EB%93%A4%EA%B8%B0/</link>
+      <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://log.readme.website/gitbook-%EB%A7%8C%EB%93%A4%EA%B8%B0/</guid>
+      <description>GitBook 생성방법 요구사항
+node 14버전 이하 gitbook-cli 설치
+$ npm install gitbook-cli -g </description>
+    </item>
+    
+  </channel>
+</rss>

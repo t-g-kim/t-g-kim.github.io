@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>node on 게을러지지마</title>
+    <link>https://log.readme.website/@node/</link>
+    <description>Recent content in node on 게을러지지마</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>tgkim</copyright>
+    <lastBuildDate>Sun, 14 Apr 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://log.readme.website/@node/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ubuntu 명령어</title>
+      <link>https://log.readme.website/ubuntu-command/</link>
+      <pubDate>Sun, 14 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://log.readme.website/ubuntu-command/</guid>
+      <description>nvm 설치
+# curl $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.36.0/install.sh | bash # 설정 리로드 $ source ~/.bashrc $ nvm --version </description>
+    </item>
+    
+  </channel>
+</rss>

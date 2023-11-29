@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>gitbook 만들기 | 게을러지지마</title>
+<meta name="robots" content='index, follow'>
+<meta name="description" content="GitBook Tutorial">
+<meta name="generator" content="hugo-index">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<meta name="naver-site-verification" content="df8058686cca369f7a31cb97318b2dd21d8fe4ed" />
+<link rel="alternate" type="application/rss+xml" href="https://log.readme.website/index.xml" title="게을러지지마">
+
+<meta property="og:title" content="게을러지지마" />
+<meta property="og:url" content="https://log.readme.website/" />
+<meta property="og:image" content="https://log.readme.website/image.jpg" />
+<meta property="og:image:alt" content="No Images" />
+<meta property="og:description" content="개발공부, 개발도서, 튜토리얼, 개발정리, 개발공부, 개발자, 서버개발자" />
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5FRKGEC23X"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5FRKGEC23X');
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-195863746-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-195863746-2');
+</script>
+<link crossorigin="anonymous" href="https://log.readme.website/assets/stylesheet.css" rel="preload stylesheet" as="style">
+<script crossorigin="anonymous" src="https://log.readme.website/assets/quicklink.js" rel="preload" as="script"></script>
+<script>
+    window.addEventListener('load', () => {
+        quicklink.listen();
+    });
+</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6690487239486575"
+     crossorigin="anonymous"></script>
+  </head>
+  <body><header>
+  <h1>
+    <a href="https://log.readme.website/">
+      
+      <span>게을러지지마</span>
+    </a>
+    <span class="hl">/</span>
+    <a href="https://log.readme.website/gitbook-%EB%A7%8C%EB%93%A4%EA%B8%B0/">
+      <span>gitbook 만들기</span>
+    </a>
+  </h1>
+  <p class="desc">GitBook Tutorial</p>
+  <p class="bookList">
+    book : 
+    <a target="_blank" href="https://t-g-kim.github.io/book-aws">aws</a>
+    <a target="_blank" href="https://t-g-kim.github.io/book-algorithm">algorithm</a>
+  </p>
+</header><div class="main">
+
+<ul class="tagsList single">
+  
+  <li><a href="https://log.readme.website/git/">git</a></li>
+  
+  <li><a href="https://log.readme.website/tutorial/">tutorial</a></li>
+  
+</ul>
+
+<div class="content"><h1 id="gitbook-생성방법">GitBook 생성방법</h1>
+<p>요구사항</p>
+<ul>
+<li>node 14버전 이하</li>
+</ul>
+<h3 id="gitbook-cli-설치">gitbook-cli 설치</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">$ npm install gitbook-cli -g 
+</code></pre></div><h3 id="gitbook-init">gitbook init</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># 해당 디렉토리에서</span>
+$ gitbook init
+</code></pre></div><h3 id="local-server-start">local server start</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">$ gitbook serve
+
+<span class="c1"># ...</span>
+<span class="c1"># Starting server ...</span>
+<span class="c1"># Serving book on http://localhost:4000</span>
+</code></pre></div><h3 id="branch는-gh-pages로-변경">branch는 gh-pages로 변경</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">$ git checkout -b gh-pages
+
+<span class="c1"># push도 gh-pages로 한다.</span>
+</code></pre></div><h3 id="목차-생성-파일">목차 생성 파일</h3>
+<p>Summary</p>
+<p>SUMMARY.md 예시</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text">* [Introduction](README.md)  
+  
+* [Part I](part1/README.md)  
+	* [Writing is nice](part1/writing.md)  
+	* [GitBook is nice](part1/gitbook.md)  
+* [Part II](part2/README.md)  
+	* [We love feedback](part2/feedback_please.md)  
+	* [Better tools for authors](part2/better_tools.md)  
+</code></pre></div><h3 id="gitbook-디렉터리-구조">Gitbook 디렉터리 구조</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">├── book.json            <span class="c1"># 기본 GitBook구성 데이터(선택)  </span>
+├── README.md            <span class="c1"># 책 소개(필수)  </span>
+├── SUMMARY.md           <span class="c1"># 목차 참조(선택)  </span>
+├── GLOSSARY.md          <span class="c1"># 용어 정리(선택 : 직접파일 성생필요)   </span>
+├── part-1/  
+<span class="p">|</span>   ├── README.md  
+<span class="p">|</span>   └── something.md  
+└── part-2/  
+    ├── README.md  
+    └── something.md  
+
+<span class="c1"># book.json에서는 플러그인을 세팅 할 수 있다.</span>
+</code></pre></div><h3 id="배포">배포</h3>
+<ol>
+<li>repository를 생성</li>
+<li>gh-pages 브랜치를 생성</li>
+<li>_books/ 디렉터리를 반영하면 t-g-kim.github.io/repo-name 으로 gitbook이 반영</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># ../book-algorithm/ 에서 파일생성 및 gitbook serve 했다고 가정   </span>
+$ cp -R ../<span class="o">{</span>book_name<span class="o">}</span>/_book/* . <span class="c1">#*  </span>
+$ git clean -fx node_modules  
+$ git clean -fx _book  
+</code></pre></div><p>배포 요약</p>
+<ul>
+<li>해당 디렉토리 이동<br>
+cp -R ../{book_name}/_book/* .<br>
+git clean -fx node_modules<br>
+git clean -fx _book</li>
+</ul>
+<p>git add .<br>
+git commit -m&quot;message&quot;<br>
+git push origin gh-pages</p>
+<h3 id="배포과정-shell">배포과정 shell</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="cp">#!/bin/bash
+</span><span class="cp"></span>
+<span class="c1"># console message</span>
+<span class="nb">echo</span> -e <span class="s2">&#34;\033[0;32mDeploying updates to GitHub...\033[0m&#34;</span>
+
+cp -R ../boo.algorithm/_book/* .
+
+git clean -fx node_modules
+
+git clean -fx _book
+
+git add .
+<span class="c1"># Commit changes.</span>
+<span class="nv">msg</span><span class="o">=</span><span class="s2">&#34;rebuilding site `date`&#34;</span>
+<span class="k">if</span> <span class="o">[</span> <span class="nv">$#</span> -eq <span class="m">1</span> <span class="o">]</span>
+  <span class="k">then</span> <span class="nv">msg</span><span class="o">=</span><span class="s2">&#34;</span><span class="nv">$1</span><span class="s2">&#34;</span>
+<span class="k">fi</span>
+git commit -m <span class="s2">&#34;</span><span class="nv">$msg</span><span class="s2">&#34;</span>
+
+<span class="c1"># Push source and build repos.</span>
+git push origin gh-pages
+</code></pre></div></div>
+<br><br><br>
+<hr>
+<script src="https://utteranc.es/client.js"
+        repo="t-g-kim/utterances"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script></div><footer>
+    <hr>
+    <div class="footer-text">
+        
+        <div><a href="https://github.com/t-g-kim">github</a></div>
+    </div>
+</footer>
+</body>
+</html>
