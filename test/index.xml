@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>test on 게을러지지마</title>
+    <link>https://log.readme.website/test/</link>
+    <description>Recent content in test on 게을러지지마</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>tgkim</copyright>
+    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://log.readme.website/test/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>싱글톤 패턴</title>
+      <link>https://log.readme.website/test/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://log.readme.website/test/</guid>
+      <description>asdfasdf</description>
+    </item>
+    
+  </channel>
+</rss>

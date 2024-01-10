@@ -17,5 +17,14 @@
       <description>java Singleton 예제 public class Singleton { private static Singleton instance = new Singleton(); private int count = 0; private Singleton() { // 외부에서 호출하지 못하게 기본 생성자는 private로 지정  } public static Singleton getInstance() { return instance; } public void increaseCount() { count++; } public int getCount() { return count; } } java Singleton 예제2 public class Singleton { // Thread safe하지 않다.  private static Singleton singleton = null; private Singleton(){} public Singleton02 getInstance() { if (singleton == null) { singleton = new Singleton(); } return singleton; } } 위의 예제는 Multi-Thread환경에서 Thread safe하지 못하다.</description>
     </item>
     
+    <item>
+      <title>싱글톤 패턴</title>
+      <link>https://log.readme.website/test/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://log.readme.website/test/</guid>
+      <description>asdfasdf</description>
+    </item>
+    
   </channel>
 </rss>
