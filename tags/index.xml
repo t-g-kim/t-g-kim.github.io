@@ -7,7 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>tgkim</copyright>
-    <lastBuildDate>Wed, 29 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://log.readme.website/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://log.readme.website/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>markdown</title>
+      <link>https://log.readme.website/markdown/</link>
+      <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://log.readme.website/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>마크다운</title>
+      <link>https://log.readme.website/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/</link>
+      <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://log.readme.website/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>git</title>
       <link>https://log.readme.website/git/</link>
@@ -79,15 +97,6 @@
       <guid>https://log.readme.website/html/</guid>
       <description> The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It is often assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript. Wikipedia
  </description>
-    </item>
-    
-    <item>
-      <title>markdown</title>
-      <link>https://log.readme.website/markdown/</link>
-      <pubDate>Sun, 21 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://log.readme.website/markdown/</guid>
-      <description></description>
     </item>
     
     <item>

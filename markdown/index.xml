@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>tgkim</copyright>
-    <lastBuildDate>Sun, 21 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://log.readme.website/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://log.readme.website/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>markdown 문법</title>
+      <link>https://log.readme.website/markdown/</link>
+      <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://log.readme.website/markdown/</guid>
+      <description>test</description>
+    </item>
+    
     <item>
       <title>Advanced Markdown</title>
       <link>https://log.readme.website/new-post-3/</link>
